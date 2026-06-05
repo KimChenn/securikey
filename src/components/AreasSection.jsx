@@ -13,30 +13,10 @@ L.Icon.Default.mergeOptions({
 });
 
 const areaLocations = [
+  { name: 'Napa', lat: 38.2975, lng: -122.2869 },
+  { name: 'Fairfield', lat: 38.2494, lng: -122.0400 },
   { name: 'Benicia', lat: 38.0491, lng: -122.1597 },
   { name: 'Vallejo', lat: 38.1041, lng: -122.2566 },
-  { name: 'Fairfield', lat: 38.2494, lng: -122.0400 },
-  { name: 'Suisun City', lat: 38.2382, lng: -122.0185 },
-  { name: 'Vacaville', lat: 38.3566, lng: -121.9877 },
-  { name: 'Rio Vista', lat: 38.1574, lng: -121.6902 },
-  { name: 'Martinez', lat: 37.9954, lng: -122.1341 },
-  { name: 'Concord', lat: 37.9780, lng: -122.0311 },
-  { name: 'Pleasant Hill', lat: 37.9477, lng: -122.0608 },
-  { name: 'Walnut Creek', lat: 37.9101, lng: -122.0652 },
-  { name: 'Lafayette', lat: 37.8858, lng: -122.1180 },
-  { name: 'Orinda', lat: 37.8771, lng: -122.1802 },
-  { name: 'Moraga', lat: 37.8349, lng: -122.1302 },
-  { name: 'Clayton', lat: 37.9410, lng: -121.9358 },
-  { name: 'Pittsburg', lat: 38.0280, lng: -121.8847 },
-  { name: 'Antioch', lat: 38.0049, lng: -121.8058 },
-  { name: 'Berkeley', lat: 37.8716, lng: -122.2727 },
-  { name: 'Albany', lat: 37.8871, lng: -122.2977 },
-  { name: 'El Cerrito', lat: 37.9238, lng: -122.3177 },
-  { name: 'Richmond', lat: 37.9358, lng: -122.3477 },
-  { name: 'Oakland', lat: 37.8044, lng: -122.2712 },
-  { name: 'Alameda', lat: 37.7652, lng: -122.2416 },
-  { name: 'Napa', lat: 38.2975, lng: -122.2869 },
-  { name: 'American Canyon', lat: 38.1749, lng: -122.2558 },
 ];
 
 const areas = areaLocations.map(a => a.name);
